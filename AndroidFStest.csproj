@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28439955-1935-41C9-0F83-6FD43569777A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp.dll</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2017.3.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/VStore/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\ButtonPrefab.cs" />
+    <Compile Include="Assets\Scripts\MIDIPlayer.cs" />
+    <Compile Include="Assets\Scripts\ObjectPooling.cs" />
+    <Compile Include="Assets\Scripts\ScrollList.cs" />
+    <Compile Include="Assets\Scripts\SimpleObjectPool.cs" />
+    <Compile Include="Assets\Scripts\SongScript.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Analog\AnalogInstrument.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\BankManager.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Fm\Envelope.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Fm\FMInstrument.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Fm\IFMComponent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Instrument.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\InstrumentBank.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Sfz\SfzInstrument.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Banks\Sfz\SfzRegion.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Effects\BasicAudioEffect.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Effects\dBMeter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Effects\Echo.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Midi\MidiEvent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Midi\MidiFile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Midi\MidiHeader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Midi\MidiHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Midi\MidiTrack.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Sequencer\MidiSequencer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Sequencer\MidiSequencerEvent.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Synthesis\NoteRegistryKey.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Synthesis\StreamSynthesizer.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Synthesis\SynthHelper.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Synthesis\Voice.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\DataChunk.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\DSP\BiQuadLowPass.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\DSP\SincLowPass.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\FactChunk.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\FormatChunk.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\IChunk.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\MasterChunk.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\Sample.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\WaveFile.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\WaveFileReader.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\WaveFileWriter.cs" />
+    <Compile Include="Assets\Scripts\ThirdParty\CSharpSynth\Wave\WaveHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\Resources\Analog Bank\analog.txt" />
+    <None Include="Assets\Scripts\Resources\FM Bank\fm.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\5thSawWave.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Accordion.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\AcousticBass.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Agogo.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\AltoSax.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Applause.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Atmosphere.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Bagpipe.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Bandoneon.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Banjo.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\BaritoneSax.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\BassLead.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Bassoon.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Bird.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\BottleBlow.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\BowedGlass.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Brass1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\BreathNoise.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Brightness.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Brush.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Celesta.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Cello.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Charang.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ChifferLead.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ChoirAahs.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ChurchOrgan1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Clarinet.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Clav.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\CleanGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Contrabass.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Crystal.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\DistortionGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\EchoDrops.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ElectricPiano1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ElectricPiano2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Electronic.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\EnglishHorn.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Fantasia.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Fiddle.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\FingerBass.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Flute.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\FrenchHorns.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\FretlessBass.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Glockenspiel.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Goblin.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\GtFretNoise.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Gunshot.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\HaloPad.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\HarmonicGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Harmonica.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Harp.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Harpsichord.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Helicopter.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Honkytonk.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\IceRain.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Jazz.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\JazzGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Kalimba.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Koto.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Marimba.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\MeloTom1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\MetalPad.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\MusicBox.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\MuteGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\MuteTrumpet.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\NylonGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Oboe.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Ocarina.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Orchestra.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\OrchestraHit.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Organ1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Organ2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Organ3.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\OverdriveGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\PanFlute.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Piano1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Piano2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Piano3.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Piccolo.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\PickedBass.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\PizzicatoStr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Polysynth.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Power.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Recorder.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ReedOrgan.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\ReverseCym.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Room.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SFX.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Santur.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SawWave.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Seashore.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Shakuhachi.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Shamisen.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Shanai.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Sitar.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SlapBass1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SlapBass2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SlowStrings.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SoloVox.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SopranoSax.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Soundtrack.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SpaceVoice.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SquareWave.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Standard.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\StarTheme.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SteelDrums.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SteelGtr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Strings.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SweepPad.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthBass1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthBass2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthBrass1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthBrass2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthCalliope.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthDrum.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthStrings1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthStrings2.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\SynthVox.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\TR-808.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Taiko.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Telephone1.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\TenorSax.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Timpani.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\TinkleBell.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\TremoloStr.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Trombone.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Trumpet.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Tuba.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\TubularBell.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Vibraphone.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Viola.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Violin.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\VoiceOohs.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\WarmPad.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Whistle.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Woodblock.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\Xylophone.sfz.txt" />
+    <None Include="Assets\Scripts\Resources\GM Bank\gm.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\20.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\Band_on_the_Run.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\BattleGM.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\DDRMAX2_ranking_SB_zb.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\DrumSolo_BlocksAway.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\FF6_Forever_Rachel.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\GROOVE.MID.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\Havana.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\ISLAND.MID.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\N64ZeldaOcarinaEnding.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\SSBM_HyruleTemple_Alt_FireEmblem.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\SuperMario64_-_DireDireDocksRemixXG.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\T_RaidenII_Stage1Theme.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\The-Lylat-Wars_1-2.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\ViolinStrings.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\WALTZFLR.MID.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\ZFS_Title_V1_3.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\alad09.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\carnival.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\cbfd_heist.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\eternia.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\luf1them.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\mirror_speedeaters2.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\mtt2_outside.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\xmasmedl.mid.txt" />
+    <None Include="Assets\Scripts\Resources\Midis\z5hracermx2.mid.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
